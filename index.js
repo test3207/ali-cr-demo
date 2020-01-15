@@ -5,7 +5,7 @@ require('http')
 		const { exec } = require('child_process')
 		if (url.includes('cr')) {
 			exec('docker container rm ali-cr-demo -f', () => {
-				exec('docker pull registry.cn-shanghai.aliyuncs.com/test3207/ali-cr-demo:master && docker run --name ali-cr-demo -p 7023:7023 --restart always -d registry.cn-shanghai.aliyuncs.com/test3207/ali-cr-demo:master')
+				exec('docker pull registry.cn-shanghai.aliyuncs.com/test3207/ali-cr-demo:master && docker run --name ali-cr-demo -p 7023:4396 --restart always -d registry.cn-shanghai.aliyuncs.com/test3207/ali-cr-demo:master')
 			})
 		}
 		res.writeHead(200)
