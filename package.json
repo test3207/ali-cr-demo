@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "基于github和阿里容器构建服务的CI流程用demo",
   "main": "index.js",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:test3207/ali-cr-demo.git"
+  },
+  "author": "test3207<test3207@outlook.com>",
   "license": "MIT"
 }
